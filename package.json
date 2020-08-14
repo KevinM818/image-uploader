@@ -1,0 +1,29 @@
+{
+  "name": "upload-konva-photos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "jimp": "^0.16.0",
+    "mongoose": "^5.9.28",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "streamifier": "^0.1.1",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
